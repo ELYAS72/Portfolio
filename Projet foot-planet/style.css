@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+/*-------------->Haut d'page<---------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+    background-color: #1d1522;
+}
+
+nav h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url('images/allianz-arena-rot-hp.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 110px;
+    
+}
+
+header h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    margin-right: 1100px;
+}
+
+header h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    margin-top: -20px0;
+    text-align: center;
+    margin-right: 1100px;
+    border-bottom: #fff;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    outline: none;
+    cursor: pointer;
+    margin-right: 1100px;
+}
+
+
+/*-------------->Milieu d'page<---------------*/
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #280972;
+
+}
+
+.main .content .ligue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+
+}
+
+.main .content .ligue .left{
+    flex: 0 0 30%;
+    padding: 75px;
+    background-color: #280972;
+    color: #fff;
+
+
+}
+
+
+.main .content .ligue.right{
+    flex: 0 0 70%;
+
+
+}
+
+.main .content .ligue .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 0px;
+
+
+}
+
+
+
+
+/*-------------->Footer<---------------*/
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid white;
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+      
+}
+
+footer h1{
+    font-family: 'Staatliches', cursive; 
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+    
+}
+
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+    
+}
+
+footer .services .service p{
+    max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px){
+
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
